@@ -38,7 +38,7 @@ a:hover {
 
 #sign-in:hover {
     color: white;
-    background-image: linear-gradient(to right, rgb(3, 220, 228), rgb(0, 163, 238));
+    background-image: linear-gradient(to right, rgb(0, 195, 255), rgb(77, 197, 233));
 }
 
 .red-color {
@@ -66,7 +66,7 @@ a:hover {
 .link-button:hover {
     text-decoration: none;
     color: white;
-    background-color: rgb(0, 175, 117);
+    background-image: linear-gradient(to left, rgb(241, 117, 15), rgb(211, 37, 89))
 }
 
 .col-md-6 img {
@@ -95,7 +95,7 @@ a:hover {
     margin: 12% 25% 5% 25%;
 }
 
-#box-shadow {
+#card-color:hover {
     text-align: center;
     background-color: white;
     border: none;
@@ -153,10 +153,14 @@ a:hover {
     box-shadow: 0 0 10px 1px rgba(128, 128, 128, 0.39);
 }
 
+#paddi {
+    padding-bottom: 50px;
+}
+
 .distance {
     text-align: center;
     font-weight: 700;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .col-md-2 img {
@@ -168,6 +172,14 @@ a:hover {
     padding-left: 50px;
 }
 
+#margi {
+    margin-top: 50px;
+}
+
+.row {
+    margin: 0 0 50px 0;
+}
+
 .bg-black {
     margin: 0;
     padding: 0;
@@ -175,12 +187,8 @@ a:hover {
     background-color: #282531;
 }
 
-.col-md-2 {
-    margin-top: 50px;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
 footer {
+    padding-bottom: 1%;
+    background-color: #282531;
     text-align: center;
 }
